@@ -24,9 +24,6 @@ body {
 
 .img-nav {
     border-radius: 100%;
-    -o-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
     max-width: 30px;
     max-height: 25px;
 }
@@ -38,7 +35,7 @@ body {
 
 .img-profile {
     border-radius: 100%;
-    max-width: 200px;
+    max-width: 125px;
     max-height: 150px;
 }
 
