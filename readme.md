@@ -19,3 +19,4 @@ Recriar um perfil do Instagram
 
 ![image](https://github.com/LaraGabrielaLopes/Projeto-MyInstagram-Profile/assets/124732741/304374b9-e12e-45a6-b54f-a11885810d68)
 
+⌛ Projeto Concluído
