@@ -14,6 +14,20 @@ body {
     padding-right: 25% !important;
 }
 
+@media screen and (max-width: 1605px) {
+    .nav-container {
+        padding-left: 20% !important;
+        padding-right: 20% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-container {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}
+
 .form-control {
     border-radius: .15rem;
     padding: 0% !important;
@@ -84,7 +98,7 @@ body {
 }
 
 .nav-link-1 {
-    color: #495057;
+    color: #495057 !important;
     background-color: #fafafa;
     border-color: gray #fff #fff !important;
     border-top-right-radius: .0rem !important;
@@ -94,11 +108,21 @@ body {
 }
 
 .nav-link-2 {
-    color: #a2a8af;
+    color: #a2a8af !important;
     background-color: #fafafa !important;
     border-color: #fff #fff #fff !important;
     border-top-right-radius: .0rem !important;
     border-top-left-radius: .0rem !important;
     font-size: 12px;
     font-weight: 600;
+}
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: .0rem !important;
+}
+
+.card .card-img ,.card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
 }
