@@ -83,7 +83,7 @@
                             <div class="col-2"></div>
                         </div>
                     </div>
-                    
+                    <!--Criando os destaques do perfil com a tag canvas-->
                     <div style="padding-top: 0px;">
                         <div class="row">
                             <div class="col-2"><canvas id="myCrl"></canvas></div>
@@ -91,7 +91,7 @@
                             <div class="col-2"><canvas id="myCrl2"></canvas></div>
                         </div>
                     </div>
-                    <div style="padding-bottom: 40px;">
+                    <div style="padding-bottom: 40px;  padding-left: 10px;">
                         <div class="row">
                             <div class="col-2 stories">Checklist</div>
                             <div class="col-2 stories">Youtube</div>
@@ -99,12 +99,25 @@
                         </div>
                     </div>
 
+                    <!--Line-->
+                    <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+
+                    <!--Navs & Tabs (Bootstrap)-->
+                    <ul class="nav nav-tabs nav-feed">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i>PUBLICAÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i>MARCADOS</a>
+                        </li>
+                    </ul>
+
                 </div>
                 <div class="col-0 col-md-2"></div>
             </div>
         </div>
     </section>
-
+    <!--Caracterizando os destaques (cor e formato)-->
     <script type="text/javascript">
         
         var crl = document.getElementById('myCrl').getContext('2d');
